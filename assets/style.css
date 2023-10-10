@@ -6,6 +6,21 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+/* Modifications */ 
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+
+
+
+
+
+/* fin modifications */ 
 .top-header {
 	background-color: white;
 	position: sticky;
