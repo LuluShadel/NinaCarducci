@@ -98,9 +98,6 @@ height: auto;
 width: 100%;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -110,7 +107,7 @@ width: 100%;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #656129;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -155,6 +152,7 @@ width: 100%;
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5em;
 
 }
 .quote__author {
@@ -196,6 +194,10 @@ width: 100%;
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.price{
+	font-size: x-large;
 }
 
 #contact {
