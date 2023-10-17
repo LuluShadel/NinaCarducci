@@ -6,7 +6,6 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -41,7 +40,6 @@ body {
 
 .social-link img {
 	width: 20px;
-	height: 20px;
 }
 
 #about {
@@ -93,11 +91,12 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
+
 .carousel-item img{
-height: 550px;
-width: 100%;
-object-fit: cover;
-}
+	height: 550px;
+	width: 100%;
+	object-fit: cover;
+	}
 
 .title{
 	text-align: center;
@@ -108,7 +107,7 @@ object-fit: cover;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #656129;
+	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -153,7 +152,6 @@ object-fit: cover;
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 2.5em;
 
 }
 .quote__author {
@@ -196,7 +194,6 @@ object-fit: cover;
 	justify-content: space-between;
 	z-index: 1;
 }
-
 
 #contact {
 	margin: auto;
@@ -272,6 +269,9 @@ input[type="submit"] {
 	#about{
 		flex-direction: column;
 
+	}
+	.picture {
+		width: 50%;
 	}
 	.picture.left::before {
 		width: 100%;
@@ -354,7 +354,6 @@ input[type="submit"] {
 	form {
 		width: 100%;
 	}
-	
 	.picture img {
 		height: 200px;
 		width: 200px;
@@ -363,4 +362,3 @@ input[type="submit"] {
 		height: 350px;
 	}
 }
-
